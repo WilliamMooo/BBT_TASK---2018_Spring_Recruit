@@ -1,0 +1,70 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-image: url(../img/background_1.png);
+  background-size: cover;
+  background-position: center;
+  overflow: auto;
+}
+
+.title-image-wrapper {
+  text-align: center;
+}
+
+.title-image {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 50%;
+}
+
+.description-text {
+  width: 82%;
+  margin-left: 9%;
+  line-height: 26px;
+  font-size: 14px;
+  text-align: justify;
+  color: #555555;
+}
+
+.button-wrapper {
+  width: 78%;
+  margin: 40px 11%;
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  width: 86px;
+  height: 36px;
+  text-align: center;
+  line-height: 36px;
+  border: solid 1px #39b54a;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 2px;
+}
+
+.button.main {
+  margin-right: 14px;
+  background-color: #39b54a;
+  color: white;
+}
+
+.button.second {
+  margin-left: 14px;
+  background-color: white;
+  color: #39b54a;
+}

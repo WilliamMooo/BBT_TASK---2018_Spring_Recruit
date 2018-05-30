@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+  <title>BBT招新</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <link href="css/loading.css" rel="stylesheet">
+  <link href="css/query.css" rel="stylesheet">
+</head>
+
+<body>
+  <div id="loading" class="loading">
+    <div class="picture">
+      <img src="img/luobo.png" alt="luobo">
+      <img src="img/luobo.png" alt="luobo">
+      <img src="img/luobo.png" alt="luobo">
+    </div>
+  </div>
+  <div id="query" class="query">
+    <img class="head" src="img/head_3.png" alt="head_3">
+    <input id="telephone" class="telephone" placeholder="请输入手机号" maxlength="11" />
+    <div class="function">
+      <a id="okButton" class="button second">确定</a>
+      <a href="./recruit.html" class="button main">马上报名</a>
+    </div>
+  </div>
+  <div id="result" class="result hide">
+    <img class="head" src="img/head_4.png" alt="head_4">
+    <div class="message">
+      <div>
+        <span>姓名：</span>
+        <span id="name"></span>
+      </div>
+      <div>
+        <span>第一志愿：</span>
+        <span id="department1"></span>
+      </div>
+      <div>
+        <span>第二志愿：</span>
+        <span id="department2"></span>
+      </div>
+    </div>
+  </div>
+  <script src="js/loading.js"></script>
+  <script src="js/ajax.js"></script>
+  <script src="js/query.js"></script>
+</body>
+
+</html>
